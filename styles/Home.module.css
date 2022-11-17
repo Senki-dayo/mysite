@@ -1,6 +1,6 @@
-.container {
+/* .container {
   padding: 0 2rem;
-}
+} */
 
 .main {
   min-height: 100vh;
@@ -218,4 +218,25 @@
   margin: 1rem;
   background-color: beige;
   width: 70%;
+}
+
+.header1 {
+  position: relative;
+  height: 50vh;
+  background-color: aquamarine;
+  background: url(/images/1.jpg) center / cover;
+}
+
+.header2 {
+  position: relative;
+  height: 50vh;
+  background-color: aquamarine;
+  background: url(/images/2.jpg) center / cover;
+}
+
+.header3 {
+  position: relative;
+  height: 50vh;
+  background-color: aquamarine;
+  background: url(/images/3.jpg) center / cover;
 }

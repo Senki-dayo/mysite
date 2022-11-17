@@ -1,6 +1,9 @@
 import Head from 'next/head'
 // import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Hello from "../components/hello"
+import SwipeHeader from "../components/swipeheader"
+import SwipeHeader2 from "../components/swipeHeader2"
 
 export default function Home() {
   return (
@@ -11,18 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header>
-        <div id="mainimg">
-        <img src="images/mainimg_bg.png" alt="" id="kazari"></img>
-        </div>
-      </header>
+      {/* <SwipeHeader /> */}
+      <SwipeHeader2 />
+
+      {/* <Hello /> */}
 
       <main className={styles.main}>
-
-        <div className={styles.frame1}>
-          <div className={styles.text}>title</div>
-          <div className={styles.photo}>image</div>
-        </div>
 
         <div className={styles.frame2}>
           <div className={styles.photo}>image</div>
@@ -46,8 +43,6 @@ export default function Home() {
           <div className={styles.photo}>image</div>
           <div className={styles.text}>text</div>
         </div>
-
-
 
 
         <h1 className={styles.title}>
