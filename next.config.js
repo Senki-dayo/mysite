@@ -4,8 +4,9 @@ const nextConfig = {
   swcMinify: true,
 }
 
-// module.exports = nextConfig
+module.exports = nextConfig
 
-module.exports = {
-  basePath: '/test2',
-}
+// サーバに上げるとき
+// module.exports = {
+//   basePath: '/test2',
+// }

@@ -12,22 +12,6 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -126,4 +110,112 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.frame1 {
+  margin: 1rem;
+  background-color: gray;
+  width: 700px;
+  height: 200px;
+}
+
+.frame1 .text {
+  margin: 1rem;
+  background-color: beige;
+}
+
+.frame1 .photo {
+  margin: 1rem;
+  background-color: aqua;
+  height: 70%;
+}
+
+.frame2 {
+  display: flex;
+  margin: 1rem;
+  background-color: gray;
+  width: 700px;
+  height: 200px;
+}
+
+.frame2 .photo {
+  margin: 1rem;
+  background-color: aqua;
+  width: 30%;
+
+}
+
+.frame2 .text {
+  margin: 1rem;
+  background-color: beige;
+  width: 70%;
+}
+
+.frame3 {
+  display: flex;
+  margin: 1rem;
+  background-color: gray;
+  width: 700px;
+  height: 200px;
+}
+
+.frame3 .photo {
+  margin: 1rem;
+  background-color: aqua;
+  width: 30%;
+
+}
+
+.frame3 .text {
+  margin: 1rem;
+  background-color: beige;
+  width: 70%;
+}
+
+.frame4 {
+  margin: 1rem;
+  background-color: gray;
+  width: 700px;
+  height: 400px;
+}
+
+.flexbox{
+  display: flex;
+  /* margin: 1rem; */
+  background-color: ghostwhite;
+  width: 95%;
+}
+
+.frame4 .photo {
+  margin: 1rem;
+  background-color: aqua;
+  width: 30%;
+
+}
+
+.frame4 .text {
+  margin: 1rem;
+  background-color: beige;
+  width: 70%;
+}
+
+.frame5 {
+  display: flex;
+  margin: 1rem;
+  background-color: gray;
+  width: 700px;
+  height: 200px;
+}
+
+.frame5 .photo {
+  margin: 1rem;
+  background-color: aqua;
+  width: 30%;
+
+}
+
+.frame5 .text {
+  margin: 1rem;
+  background-color: beige;
+  width: 70%;
 }
